@@ -18,9 +18,10 @@
         animate:flip
         class="toast {notification.theme} {notification.className}"
         style="background: {notification.color};"
-        transition:fly={{y: 30}}
+        transition:fly|global={{y: 30}}
         on:click={() => elDelete(notification)}
         on:keypress
+        role="alertdialog"
       >
         <div class="content">{notification.message}</div>
       </div>
