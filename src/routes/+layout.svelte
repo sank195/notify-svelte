@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Notifications from '../lib/index.js';
+  import Notifications from 'pixel-notify';
 </script>
 
 <div class="wrapper">

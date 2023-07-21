@@ -1,6 +1,6 @@
 {
   "name": "pixel-notify",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Very simple and lightweight notifications widget for SvelteKit based on stores",
   "keywords": [
     "svelte",
@@ -56,5 +56,8 @@
   },
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pixel-notify": "^1.1.1"
+  }
 }

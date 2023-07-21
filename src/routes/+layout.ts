@@ -1,4 +1,4 @@
-import {notify} from '../lib/index.js';
+import {notify} from 'pixel-notify';
 
 export const load = () => {
   notify.setTheme('layoutLoad', '#999');

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {notify} from '../lib/index.js';
+  import {notify} from 'pixel-notify';
 
   notify.setTheme('custom', '#FB532A');
 
