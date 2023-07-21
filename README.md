@@ -1,7 +1,10 @@
-# Notify-Svelte
+# Pixel-Notify
 
 Very simple and lightweight notifications widget for SvelteKit based on stores. Fully Typed.
 
+## Supports svelte 3 and 4
+
+To install package run:
 ```bash
 # installation
 npm install pixel-notify
